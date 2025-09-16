@@ -9,7 +9,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 34
         versionCode 2
-        versionName "1.2.0-honor"
+        versionName "1.2.1-honor"
         consumerProguardFiles 'proguard-rules.pro'
     }
 
@@ -24,7 +24,7 @@ publishing {
         release(MavenPublication) {
             groupId = "com.github.apsky911"  
             artifactId = "ShortcutBadger"
-            version = "1.2.0-honor"
+            version = "1.2.1-honor"
 
             afterEvaluate {
                 from components.release
